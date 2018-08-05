@@ -42,7 +42,7 @@ process.on('unhandledRejection', error => {
 
     try {
         await server.start();
-        pino.info(`Server running at: ${server.info.uri}`);
+        pino.info(`Server running. Check docs at: ${server.info.uri}/documentation`);
     } catch (err) {
         pino.error(err);
     }
