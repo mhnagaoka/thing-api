@@ -1,6 +1,6 @@
 {
   "name": "thing-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Thing API (CRUD for things)",
   "main": "index.js",
   "scripts": {
